@@ -37,7 +37,12 @@
     "publisher": {
         "@type": "Organization",
         "name": "Friends of Mexico",
-        "logo": "https://casper.ghost.org/v1.0.0/images/ghost-logo.svg"
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/favicon.ico",
+            "width": 60,
+            "height": 60
+        }
     },
     "url": "http://localhost:2368/",
     "image": {
@@ -74,7 +79,7 @@ ghost.init({
     <div class="inner">
         <div class="site-header-content">
             <h1 class="site-title">
-                    <img class="site-logo" src="https://casper.ghost.org/v1.0.0/images/ghost-logo.svg" alt="Friends of Mexico" />
+                    Friends of Mexico
             </h1>
             <h2 class="site-description">Thoughts, stories and ideas.</h2>
         </div>

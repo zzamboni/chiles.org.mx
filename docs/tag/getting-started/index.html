@@ -31,7 +31,12 @@
     "publisher": {
         "@type": "Organization",
         "name": "Friends of Mexico",
-        "logo": "https://casper.ghost.org/v1.0.0/images/ghost-logo.svg"
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/favicon.ico",
+            "width": 60,
+            "height": 60
+        }
     },
     "url": "http://localhost:2368/tag/getting-started/",
     "name": "Getting Started",
@@ -62,7 +67,7 @@ ghost.init({
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
-                <a class="site-nav-logo" href="../../index.html"><img src="https://casper.ghost.org/v1.0.0/images/ghost-logo.svg" alt="Friends of Mexico" /></a>
+                <a class="site-nav-logo" href="../../index.html">Friends of Mexico</a>
             <ul class="nav">
     <li class="nav-home" role="presentation"><a href="../../index.html">Home</a></li>
 </ul>
